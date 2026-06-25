@@ -14,14 +14,6 @@ discriminating between valid and invalid matches. Results demonstrate a 122%
 increase in semantic alignment compared to lexical baselines, providing a 
 robust, scalable decision-support framework for intelligent recruitment.
 
-
-
-TEAM MEMBERS & ROLES
-- Anushka: Data Architect (Data Collection, EDA, Data Cleaning, Documentation)
-- Tushar: Deep Learning Engineer (TF-IDF Baseline, SBERT Implementation, Embedding Logic)
-- Saakshaat: Neural Classifier Lead (PyTorch Modeling, Optimization, Presentation)
- 
-
 TECHNICAL REQUIREMENTS
 - Python 3.8+
 - Libraries: torch, sentence-transformers, pandas, numpy, sklearn, matplotlib, seaborn
@@ -47,16 +39,12 @@ The project is provided as a Jupyter Notebook (.ipynb). Follow these steps:
    - Phase 4: Semantic Embedding (SBERT all-MiniLM-L6-v2 Encoding)
    - Phase 5: Supervised Fine-Tuning (Neural MatchModel training)
 
-
-
 4. Command Line Usage (If converted to .py):
    $ python matching_system.py --mode train --model all-MiniLM-L6-v2
 
    Note: The code defaults to IT category filtering to ensure domain-specific 
    accuracy. You can modify 'Category' filters in the data loading section to 
    test other job sectors (e.g., HR, Sales, Healthcare).
-
-
 
 EXPERIMENTAL RESULTS SUMMARY
 - TF-IDF Mean Similarity: 0.158
